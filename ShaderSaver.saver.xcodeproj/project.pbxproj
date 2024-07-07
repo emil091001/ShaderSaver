@@ -20,6 +20,7 @@
 		94476F162C1B4FB000F100CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94476F192C1B4FB000F100CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94476F1B2C1B4FB000F100CE /* ShaderSaver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShaderSaver.entitlements; sourceTree = "<group>"; };
+		94476F212C1B50CA00F100CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		94476F112C1B4FAE00F100CE /* ShaderSaver */ = {
 			isa = PBXGroup;
 			children = (
+				94476F212C1B50CA00F100CE /* Info.plist */,
 				94476F122C1B4FAE00F100CE /* AppDelegate.swift */,
 				94476F142C1B4FAE00F100CE /* ViewController.swift */,
 				94476F162C1B4FB000F100CE /* Assets.xcassets */,
@@ -96,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 94476F0A2C1B4FAE00F100CE /* Build configuration list for PBXProject "ShaderSaver" */;
+			buildConfigurationList = 94476F0A2C1B4FAE00F100CE /* Build configuration list for PBXProject "ShaderSaver.saver" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -280,6 +282,8 @@
 				DEVELOPMENT_TEAM = 52NR4QWTMM;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShaderSaver/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ShaderSaver;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -307,6 +311,8 @@
 				DEVELOPMENT_TEAM = 52NR4QWTMM;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShaderSaver/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ShaderSaver;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -325,7 +331,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		94476F0A2C1B4FAE00F100CE /* Build configuration list for PBXProject "ShaderSaver" */ = {
+		94476F0A2C1B4FAE00F100CE /* Build configuration list for PBXProject "ShaderSaver.saver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94476F1C2C1B4FB000F100CE /* Debug */,
