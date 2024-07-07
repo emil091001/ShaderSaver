@@ -7,24 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		94476F132C1B4FAE00F100CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94476F122C1B4FAE00F100CE /* AppDelegate.swift */; };
-		94476F152C1B4FAE00F100CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94476F142C1B4FAE00F100CE /* ViewController.swift */; };
-		94476F172C1B4FB000F100CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94476F162C1B4FB000F100CE /* Assets.xcassets */; };
-		94476F1A2C1B4FB000F100CE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 94476F192C1B4FB000F100CE /* Base */; };
+		94035E4F2C3AF7C40021BE32 /* ShaderSaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94035E4E2C3AF7C40021BE32 /* ShaderSaverView.swift */; };
+		94035E512C3AF7F00021BE32 /* OpenGLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94035E502C3AF7F00021BE32 /* OpenGLView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		94476F0F2C1B4FAE00F100CE /* ShaderSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShaderSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		94476F122C1B4FAE00F100CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		94476F142C1B4FAE00F100CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		94476F162C1B4FB000F100CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		94476F192C1B4FB000F100CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		94476F1B2C1B4FB000F100CE /* ShaderSaver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShaderSaver.entitlements; sourceTree = "<group>"; };
-		94476F212C1B50CA00F100CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		94035E412C3AF7AA0021BE32 /* ShaderSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShaderSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		94035E4D2C3AF7C40021BE32 /* ShaderSaver-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShaderSaver-Bridging-Header.h"; sourceTree = "<group>"; };
+		94035E4E2C3AF7C40021BE32 /* ShaderSaverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaderSaverView.swift; sourceTree = "<group>"; };
+		94035E502C3AF7F00021BE32 /* OpenGLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenGLView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		94476F0C2C1B4FAE00F100CE /* Frameworks */ = {
+		94035E3E2C3AF7AA0021BE32 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,45 +29,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		94476F062C1B4FAE00F100CE = {
+		94035E372C3AF7AA0021BE32 = {
 			isa = PBXGroup;
 			children = (
-				94476F112C1B4FAE00F100CE /* ShaderSaver */,
-				94476F102C1B4FAE00F100CE /* Products */,
+				94035E432C3AF7AA0021BE32 /* ShaderSaver */,
+				94035E422C3AF7AA0021BE32 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		94476F102C1B4FAE00F100CE /* Products */ = {
+		94035E422C3AF7AA0021BE32 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				94476F0F2C1B4FAE00F100CE /* ShaderSaver.app */,
+				94035E412C3AF7AA0021BE32 /* ShaderSaver.saver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		94476F112C1B4FAE00F100CE /* ShaderSaver */ = {
+		94035E432C3AF7AA0021BE32 /* ShaderSaver */ = {
 			isa = PBXGroup;
 			children = (
-				94476F212C1B50CA00F100CE /* Info.plist */,
-				94476F122C1B4FAE00F100CE /* AppDelegate.swift */,
-				94476F142C1B4FAE00F100CE /* ViewController.swift */,
-				94476F162C1B4FB000F100CE /* Assets.xcassets */,
-				94476F182C1B4FB000F100CE /* Main.storyboard */,
-				94476F1B2C1B4FB000F100CE /* ShaderSaver.entitlements */,
+				94035E502C3AF7F00021BE32 /* OpenGLView.swift */,
+				94035E4E2C3AF7C40021BE32 /* ShaderSaverView.swift */,
+				94035E4D2C3AF7C40021BE32 /* ShaderSaver-Bridging-Header.h */,
 			);
 			path = ShaderSaver;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		94035E3C2C3AF7AA0021BE32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		94476F0E2C1B4FAE00F100CE /* ShaderSaver */ = {
+		94035E402C3AF7AA0021BE32 /* ShaderSaver */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94476F1E2C1B4FB000F100CE /* Build configuration list for PBXNativeTarget "ShaderSaver" */;
+			buildConfigurationList = 94035E4A2C3AF7AA0021BE32 /* Build configuration list for PBXNativeTarget "ShaderSaver" */;
 			buildPhases = (
-				94476F0B2C1B4FAE00F100CE /* Sources */,
-				94476F0C2C1B4FAE00F100CE /* Frameworks */,
-				94476F0D2C1B4FAE00F100CE /* Resources */,
+				94035E3C2C3AF7AA0021BE32 /* Headers */,
+				94035E3D2C3AF7AA0021BE32 /* Sources */,
+				94035E3E2C3AF7AA0021BE32 /* Frameworks */,
+				94035E3F2C3AF7AA0021BE32 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -80,25 +83,25 @@
 			);
 			name = ShaderSaver;
 			productName = ShaderSaver;
-			productReference = 94476F0F2C1B4FAE00F100CE /* ShaderSaver.app */;
-			productType = "com.apple.product-type.application";
+			productReference = 94035E412C3AF7AA0021BE32 /* ShaderSaver.saver */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		94476F072C1B4FAE00F100CE /* Project object */ = {
+		94035E382C3AF7AA0021BE32 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					94476F0E2C1B4FAE00F100CE = {
+					94035E402C3AF7AA0021BE32 = {
 						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
 					};
 				};
 			};
-			buildConfigurationList = 94476F0A2C1B4FAE00F100CE /* Build configuration list for PBXProject "ShaderSaver.saver" */;
+			buildConfigurationList = 94035E3B2C3AF7AA0021BE32 /* Build configuration list for PBXProject "ShaderSaver" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -106,53 +109,40 @@
 				en,
 				Base,
 			);
-			mainGroup = 94476F062C1B4FAE00F100CE;
-			productRefGroup = 94476F102C1B4FAE00F100CE /* Products */;
+			mainGroup = 94035E372C3AF7AA0021BE32;
+			productRefGroup = 94035E422C3AF7AA0021BE32 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				94476F0E2C1B4FAE00F100CE /* ShaderSaver */,
+				94035E402C3AF7AA0021BE32 /* ShaderSaver */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		94476F0D2C1B4FAE00F100CE /* Resources */ = {
+		94035E3F2C3AF7AA0021BE32 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94476F172C1B4FB000F100CE /* Assets.xcassets in Resources */,
-				94476F1A2C1B4FB000F100CE /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		94476F0B2C1B4FAE00F100CE /* Sources */ = {
+		94035E3D2C3AF7AA0021BE32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94476F152C1B4FAE00F100CE /* ViewController.swift in Sources */,
-				94476F132C1B4FAE00F100CE /* AppDelegate.swift in Sources */,
+				94035E4F2C3AF7C40021BE32 /* ShaderSaverView.swift in Sources */,
+				94035E512C3AF7F00021BE32 /* OpenGLView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		94476F182C1B4FB000F100CE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				94476F192C1B4FB000F100CE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		94476F1C2C1B4FB000F100CE /* Debug */ = {
+		94035E482C3AF7AA0021BE32 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -210,12 +200,10 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		94476F1D2C1B4FB000F100CE /* Release */ = {
+		94035E492C3AF7AA0021BE32 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -266,90 +254,76 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
-				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
 		};
-		94476F1F2C1B4FB000F100CE /* Debug */ = {
+		94035E4B2C3AF7AA0021BE32 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = ShaderSaver/ShaderSaver.entitlements;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 52NR4QWTMM;
-				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ShaderSaver/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = ShaderSaver;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
+				INFOPLIST_KEY_NSPrincipalClass = ShaderSaverView;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Schneider.ShaderSaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ShaderSaver/ShaderSaver-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
 		};
-		94476F202C1B4FB000F100CE /* Release */ = {
+		94035E4C2C3AF7AA0021BE32 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = ShaderSaver/ShaderSaver.entitlements;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 52NR4QWTMM;
-				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ShaderSaver/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = ShaderSaver;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
+				INFOPLIST_KEY_NSPrincipalClass = ShaderSaverView;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Schneider.ShaderSaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ShaderSaver/ShaderSaver-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		94476F0A2C1B4FAE00F100CE /* Build configuration list for PBXProject "ShaderSaver.saver" */ = {
+		94035E3B2C3AF7AA0021BE32 /* Build configuration list for PBXProject "ShaderSaver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				94476F1C2C1B4FB000F100CE /* Debug */,
-				94476F1D2C1B4FB000F100CE /* Release */,
+				94035E482C3AF7AA0021BE32 /* Debug */,
+				94035E492C3AF7AA0021BE32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94476F1E2C1B4FB000F100CE /* Build configuration list for PBXNativeTarget "ShaderSaver" */ = {
+		94035E4A2C3AF7AA0021BE32 /* Build configuration list for PBXNativeTarget "ShaderSaver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				94476F1F2C1B4FB000F100CE /* Debug */,
-				94476F202C1B4FB000F100CE /* Release */,
+				94035E4B2C3AF7AA0021BE32 /* Debug */,
+				94035E4C2C3AF7AA0021BE32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 94476F072C1B4FAE00F100CE /* Project object */;
+	rootObject = 94035E382C3AF7AA0021BE32 /* Project object */;
 }
